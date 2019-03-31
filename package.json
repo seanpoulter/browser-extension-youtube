@@ -18,6 +18,8 @@
   },
   "scripts": {
     "build": "babel src --out-dir dist --extensions \".ts\" --ignore \"src/**/*.test.ts\"",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch"
   }
