@@ -1,0 +1,8 @@
+{
+  "name": "browser-extension-youtube",
+  "version": "0.0.0",
+  "description": "Improve your user experience on YouTube",
+  "repository": "https://github.com/seanpoulter/browser-extension-youtube",
+  "author": "Sean Poulter <sean.poulter@gmail.com>",
+  "private": true
+}
