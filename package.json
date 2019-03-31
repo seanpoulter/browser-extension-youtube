@@ -4,5 +4,21 @@
   "description": "Improve your user experience on YouTube",
   "repository": "https://github.com/seanpoulter/browser-extension-youtube",
   "author": "Sean Poulter <sean.poulter@gmail.com>",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-typescript": "^7.3.3",
+    "babel-preset-minify": "^0.5.0",
+    "typescript": "^3.4.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.0"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist --extensions \".ts\" --ignore \"src/**/*.test.ts\"",
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "npm run type-check -- --watch"
+  }
 }

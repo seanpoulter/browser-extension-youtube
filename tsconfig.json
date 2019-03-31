@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "isolatedModules": true,
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext",
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}

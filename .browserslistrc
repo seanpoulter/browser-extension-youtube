@@ -1,0 +1,5 @@
+# Source: https://caniuse.com/#feat=mutationobserver
+
+chrome >= 26
+firefox >= 14
+safari >= 6.1
