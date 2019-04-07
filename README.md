@@ -35,8 +35,9 @@ This is a hobby project that's really an excuse to:
 
 ## Roadmap
 
-* [ ] Create an Observable
-* [ ] Create an Observable from an EventListener
+* [x] Create an Observable
+* [x] Create an Observable from an EventListener
+* [ ] Bundle the generated code
 * [ ] Create an Observable from a `MutationObserver`
 * [ ] Detect when a skippable ad has been added to the DOM
 * ...
