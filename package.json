@@ -12,13 +12,17 @@
     "@babel/preset-typescript": "^7.3.3",
     "@types/jest": "^24.0.11",
     "babel-preset-minify": "^0.5.0",
+    "rollup": "^1.9.0",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-node-resolve": "^4.2.1",
     "typescript": "^3.4.2"
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.0"
   },
   "scripts": {
-    "build": "babel src --out-dir dist --extensions \".ts\" --ignore \"src/**/__tests__/\" --ignore \"src/**/__mocks__/\"",
+    "build": "rollup --config",
+    "build:watch": "rollup --config --watch",
     "test": "jest",
     "test:watch": "jest --watch",
     "type-check": "tsc --noEmit",
