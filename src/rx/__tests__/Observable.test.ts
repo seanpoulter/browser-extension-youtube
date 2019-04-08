@@ -48,7 +48,7 @@ describe('Observable', () => {
         expect(target.removeEventListener).toHaveBeenCalledWith(type, listener);
       });
 
-      it('should ', () => {
+      it('should deliver notifications for the "next" event', () => {
         const next = jest.fn();
         const target = new MockDOMEventTarget();
         const observable = Observable.fromEvent(target, 'click');
