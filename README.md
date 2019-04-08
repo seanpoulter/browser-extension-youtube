@@ -38,6 +38,7 @@ This is a hobby project that's really an excuse to:
 * [x] Create an Observable
 * [x] Create an Observable from an EventListener
 * [x] Bundle the generated code
+* [x] Add a manifest file to be able to test the extension in Chrome
 * [ ] Create an Observable from a `MutationObserver`
 * [ ] Detect when a skippable ad has been added to the DOM
 * ...
@@ -55,3 +56,5 @@ This is a hobby project that's really an excuse to:
   * the documentation and source code from the [RxJS](https://github.com/ReactiveX/rxjs) project which is published with an open source Apache License 2.0.
   * the [RxJS Beyond the Basics: Creating Observables from scratch](https://egghead.io/courses/rxjs-beyond-the-basics-creating-observables-from-scratch) course on [Egghead.io](https://egghead.io)
   * the documentation for the `Rx.DOM.fromMutationObserver` API from the [RxJS-DOM](https://github.com/Reactive-Extensions/RxJS-DOM) project which is published with an open source Apache License 2.0
+* Chrome
+  * The [Manifest File Format](https://developer.chrome.com/extensions/manifest)
